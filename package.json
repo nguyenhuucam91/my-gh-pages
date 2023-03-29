@@ -1,4 +1,5 @@
 {
+  "homepage": "https://nguyenhuucam91.github.io/my-gh-pages/#",
   "name": "solution",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
